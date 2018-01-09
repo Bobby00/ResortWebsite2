@@ -1,0 +1,68 @@
+.btn {
+  background-color: #E7207B;
+  border-color: #E7207B;
+}
+#no-pad {
+  padding-bottom: 0;
+}
+.flickity-page-dots .dot {
+  background-color: #e7207b;
+}
+.bar .logo {
+  max-height: 2.45714286em;
+}
+footer .logo {
+  max-height: 2.67142857em;
+}
+.menu-horizontal > li:not(:hover) > a,
+.menu-horizontal > li:not(:hover) > span,
+.menu-horizontal > li:not(:hover) > .modal-instance > .modal-trigger {
+  opacity: .8;
+  font-size: 17px;
+}
+.menu-horizontal > li > a:hover,
+.menu-horizontal > li > span:hover,
+.menu-horizontal > li > .modal-instance > .modal-trigger:hover {
+  color: #252525;
+  font-size: 18px;
+  font-weight: 600;
+
+}
+.the-colour {
+  color: #e7207b;
+}
+.btn:hover {
+  background-color: black;
+}
+.btn-primary {
+  background-color:  #e7207b;
+}
+.pad-top {
+  padding-top: 20px;
+}
+#clrchange {
+  background-color: #e7207b;
+  border-color: black;
+}
+#clrchange:hover {
+  background-color:black;
+  border-color: #e7207b;
+}
+.label:not([class*='bg--']) {
+  background: black;
+  color: #e7207b;
+}
+.bar {
+  position: fixed;
+  width: 100%;
+  z-index: 4;
+  background: #151314;
+}
+
+.hamburger-toggle i {
+  color: #e7207b;
+}
+.menu-horizontal > li:not(:hover) > a, .menu-horizontal > li:not(:hover) > span, .menu-horizontal > li:not(:hover) > .modal-instance > .modal-trigger {
+  opacity: 1;
+  font-weight: 500;
+}

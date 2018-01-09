@@ -1,0 +1,52 @@
+#currentCountApple, 
+#currentCountAvocado, 
+#currentCountBanana ,
+#currentCountStrawberry,
+#currentCountMelon,
+#currentCountMango {
+  font-size: 45px;
+}
+#decrementButtonApple,
+#decrementButtonAvocado,
+#decrementButtonBanana,
+#decrementButtonStrawberry,
+#decrementButtonMelon,
+#decrementButtonMango {
+  font-family:monospace;
+  font-size:40px;
+  color:white;
+}
+#incrementButtonApple,
+#incrementButtonAvocado,
+#incrementButtonBanana,
+#incrementButtonStrawberry,
+#incrementButtonMelon,
+#incrementButtonMango {
+  font-family:monospace;
+  font-size:40px;
+  color:white;
+  padding-left: 15px;
+}
+#decrementButtonApple:hover,
+#decrementButtonAvocado:hover,
+#decrementButtonBanana:hover,
+#decrementButtonStrawberry:hover,
+#decrementButtonMelon:hover,
+#decrementButtonMango:hover{
+  font-family:monospace;
+  font-size:40px;
+  color:orange;
+  cursor: pointer;
+}
+#incrementButtonApple:hover,
+#incrementButtonAvocado:hover,
+#incrementButtonBanana:hover,
+#incrementButtonStrawberry:hover,
+#incrementButtonMelon:hover,
+#incrementButtonMango:hover{
+  font-family:monospace;
+  font-size:40px;
+  color:orange;
+  padding-left: 15px;
+  cursor: pointer;
+}
