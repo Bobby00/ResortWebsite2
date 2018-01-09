@@ -3350,7 +3350,7 @@ form[action*='list-manage.com'] .small-meta {
 .page-navigator li a:not(:hover) {
   opacity: .5;
 }
-.page-navigator li a.inner-link--active {
+.page-navigator li a.inner-link-active {
   opacity: 1;
   animation: bulge .5s ease;
   -webkit-animation: bulge .5s ease;
