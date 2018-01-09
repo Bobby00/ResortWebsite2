@@ -267,6 +267,12 @@ body {
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
 }
+.pos-vertical-left {
+  position: relative;
+  top: 70%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
 @media all and (max-width: 767px) {
   .pos-vertical-center {
     top: 0;
