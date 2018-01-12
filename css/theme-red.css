@@ -1097,20 +1097,25 @@ ul:last-child {
 .menu-horizontal > li:not(:hover) > a,
 .menu-horizontal > li:not(:hover) > span,
 .menu-horizontal > li:not(:hover) > .modal-instance > .modal-trigger {
-  opacity: .5;
+  opacity: 0.9;
+  font-size: 20px;
 }
 .menu-horizontal > li > a,
 .menu-horizontal > li > span,
 .menu-horizontal > li > .modal-instance > .modal-trigger {
-  transition: 0.3s ease;
-  -webkit-transition: 0.3s ease;
-  -moz-transition: 0.3s ease;
-  color: #252525;
+  transition: 0.1s ease;
+  -webkit-transition: 0.1s ease;
+  -moz-transition: 0.1s ease;
+  font-size: 20px;
+  color: #e7207b;
 }
 .menu-horizontal > li > a:hover,
 .menu-horizontal > li > span:hover,
 .menu-horizontal > li > .modal-instance > .modal-trigger:hover {
-  color: #252525;
+  color: #e7207b;
+  font-size: 20px;
+  border-bottom: 2px solid;
+
 }
 .bg--dark .menu-horizontal > li > a,
 .bg--dark .menu-horizontal > li > span {
@@ -7698,6 +7703,7 @@ label {
 }
 .slider.slider--columns .next {
   right: 15px;
+  z-index: 30;
 }
 .slider.border--round .slides li {
   border-radius: 6px;
