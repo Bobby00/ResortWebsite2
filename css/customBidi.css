@@ -53,3 +53,10 @@ footer .logo {
   opacity: 1;
   z-index: 3;
 }
+.widget {
+  position: fixed;
+  display: block;
+  top: 87%;
+  right: 0%;
+  z-index: 10;
+}
