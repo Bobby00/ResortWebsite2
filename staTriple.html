@@ -175,7 +175,7 @@
                     <div class="row">
                         <div class="col-sm-8 col-md-6">
                             <div class="cta">
-                                <a id="clrchange" class="btn btn--primary btn--lg type--uppercase" href="#purchase-template">
+                                <a onclick="myFunction()" id="clrchange" class="btn btn--primary btn--lg type--uppercase" href="#show-more">
                                     <font color="#ffffff"><span><b>REQUEST NOW!</b></span></font><br><span class="label">$70 USD</span> </a>
 
                             </div>
@@ -183,6 +183,30 @@
                     </div>
                 </div>
             </section>
+
+            <section style="display:none" id="show-more" class="switchable imagebg" data-overlay="4">
+                <div class="background-image-holder"> <img alt="background" src="img-bidi/bg.jpg"> </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <p class="lead"> Email: <a href="mailto:bidibaduhostel@gmail.com">bidibaduhostel@gmail.com</a><br> Phone: <a href="tel: +254 721 131 415">+254 721 131 415</a> </p>
+                            <p class="lead"> Give us a call, email or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days. </p>
+                            <p class="lead">  </p>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="row">
+                                <form class="form-email" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly.">
+                                    <div class="col-sm-6 col-xs-12"> <label>Your Name:</label> <input type="text" name="Name" class="validate-required"> </div>
+                                    <div class="col-sm-6 col-xs-12"> <label>Email Address:</label> <input type="email" name="email" class="validate-required validate-email"> </div>
+                                    <div class="col-sm-12 col-xs-12"> <label>Message:</label> <textarea rows="4" name="Message" class="validate-required"></textarea> </div>
+                                    <div class="col-sm-5 col-md-4 col-xs-6"> <button type="submit" class="btn btn--primary type--uppercase">Send Request</button> </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <hr>
             <footer class="footer-3 text-center-xs space--xs">
                 <div class="container">
@@ -201,11 +225,25 @@
                     </div>
                     <div class="row">
 
-                        <div class="col-sm-6 text-left text-center-xs"> <span style="color:#e7207b;" class="type--fine-print">© <span style="color:#e7207b;" class="update-year"></span> Bidibadu Beach Resort.</span> <a class="type--fine-print" href="#">Privacy Policy</a> <a class="type--fine-print" href="#">Legal</a> </div>
+                        <div class="col-sm-6 text-left text-center-xs"> <span style="color:#e7207b;" class="type--fine-print">© <span style="color:#e7207b;" class="update-year"></span> Bidibadu Beach Resort.</span> <a class="type--fine-print" href="#">Terms & Conditions</a> <a class="type--fine-print" href="#">Imprint</a> </div>
                     </div>
                 </div>
             </footer>
         </div>
+
+        <script>
+            function myFunction(){
+                var x =
+            document.getElementById('show-more');
+            if (x.style.display === 'none')
+            {
+                x.style.display = 'block';
+            } else {
+               x.style.display = "none";
+            }
+        }
+        </script>
+
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/flickity.min.js"></script>
         <script src="js/parallax.js"></script>

@@ -56,7 +56,7 @@ footer .logo {
 .widget {
   position: fixed;
   display: block;
-  top: 87%;
+  bottom: 0%;
   right: 0%;
   z-index: 10;
 }
