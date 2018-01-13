@@ -5717,7 +5717,7 @@ p .material-icons:first-child {
   color: #ff4f4f;
 }
 .bg--primary .boxed:not(.imagebg) .color--primary {
-  color: #ff4f4f !important;
+  color: #ff4f4f !important;     
 }
 @media all and (min-width: 768px) {
   .boxed.boxed--emphasis {
